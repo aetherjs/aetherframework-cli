@@ -1,0 +1,29 @@
+
+{  
+  "name": "@aetherframework/cli",
+  "version": "1.0.1",
+  "description": "Aether framework CLI Tool",
+  "author": "Aether Framework Team",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/aetherframework-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aetherframework-cli/issues",
+    "email": "support@aetherjs.org"
+  },
+  "homepage": "https://www.aetherjs.org",
+  "type": "module",
+  "bin": {
+    "aether": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "dependencies": {
+    "chalk": ".3.0",
+    "commander": ".1.0",
+    "fs-extra": ".2.0",
+    "inquirer": ".2.12"
+  }
+}

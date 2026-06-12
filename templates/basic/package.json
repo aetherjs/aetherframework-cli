@@ -1,0 +1,29 @@
+{
+  "name": "aether-basic-project",
+  "version": "1.0.0",
+  "description": "Aether Framework basic project",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@aetherframework/middleware": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "aether",
+    "framework",
+    "api",
+    "middleware"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

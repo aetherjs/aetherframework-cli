@@ -1,0 +1,36 @@
+{
+  "name": "aether-api-project",
+  "version": "1.0.0",
+  "description": "Aether Framework API project with CORS, Security, Session, and JWT",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@aetherframework/middleware": "^1.0.0",
+    "dotenv": "^16.0.0",
+    "mysql2": "^3.22.5",
+    "redis": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "aether",
+    "framework",
+    "api",
+    "middleware",
+    "jwt",
+    "session",
+    "cors",
+    "security"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
