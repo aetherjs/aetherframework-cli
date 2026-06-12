@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Aether Framework API project with CORS, Security, Session, and JWT",
   "type": "module",
-  "main": "app.js",
+  "main": "src/app.js", 
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
     "test": "node --test"
   },
   "dependencies": {
