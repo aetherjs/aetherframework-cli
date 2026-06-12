@@ -1,7 +1,7 @@
 
 {  
   "name": "@aetherframework/cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Aether framework CLI Tool",
   "author": "Aether Framework Team",
     "repository": {
