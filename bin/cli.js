@@ -1,5 +1,5 @@
-
 #!/usr/bin/env node
+
 /**
  * @license MIT
  * Copyright (c) 2026-present AetherFramework Contributors.
